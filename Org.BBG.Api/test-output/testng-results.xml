@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18646" started-at="2018-05-14T13:15:36Z" finished-at="2018-05-14T13:15:55Z">
+  <suite name="Default suite" duration-ms="21129" started-at="2018-05-14T17:45:44Z" finished-at="2018-05-14T17:46:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18646" started-at="2018-05-14T13:15:36Z" finished-at="2018-05-14T13:15:55Z">
+    <test name="Default test" duration-ms="21129" started-at="2018-05-14T17:45:44Z" finished-at="2018-05-14T17:46:05Z">
       <class name="Org.BBG.store.getNearByDeliveryStore">
-        <test-method status="PASS" signature="GetNearByDelivryStore()[pri:0, instance:Org.BBG.store.getNearByDeliveryStore@7c469c48]" name="GetNearByDelivryStore" duration-ms="18475" started-at="2018-05-14T13:15:36Z" description="Testing the web service whether success 200 has been received" finished-at="2018-05-14T13:15:55Z">
+        <test-method status="PASS" signature="GetNearByDelivryStore()[pri:0, instance:Org.BBG.store.getNearByDeliveryStore@3224f60b]" name="GetNearByDelivryStore" duration-ms="21081" started-at="2018-05-14T17:45:44Z" description="Testing the web service whether success 200 has been received" finished-at="2018-05-14T17:46:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetNearByDelivryStore -->

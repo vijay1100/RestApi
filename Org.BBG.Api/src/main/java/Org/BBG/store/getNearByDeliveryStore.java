@@ -6,12 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import com.jayway.restassured.response.Response;
 import Org.BBG.Org.BBG.Api.BaseClass;
-import io.qameta.allure.Allure;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.testng.AllureTestNg;
-
 public class getNearByDeliveryStore extends BaseClass {
 	String uname;
 	Response res;
@@ -20,8 +14,7 @@ public class getNearByDeliveryStore extends BaseClass {
 	Float longitude;
 
 	@Test(description = "Testing the web service whether success 200 has been received")
-	@Description("Description : Testing the web service whether success 200 has been received")
-	@Severity(SeverityLevel.CRITICAL)
+	
 
 	public void GetNearByDelivryStore() throws Throwable {
 
