@@ -1,0 +1,56 @@
+{
+	"uuid": "a10181ba-93f7-481f-bdb4-cff3f2cc475c",
+	"historyId": "cad9210d0e283742613d7bb94ac74e70",
+	"fullName": "Org.BBG.store.getNearByDeliveryStore.GetNearByDelivryStore",
+	"labels": [
+		{
+			"name": "package",
+			"value": "Org.BBG.store.getNearByDeliveryStore"
+		},
+		{
+			"name": "testClass",
+			"value": "Org.BBG.store.getNearByDeliveryStore"
+		},
+		{
+			"name": "testMethod",
+			"value": "GetNearByDelivryStore"
+		},
+		{
+			"name": "parentSuite",
+			"value": "Default suite"
+		},
+		{
+			"name": "suite",
+			"value": "Default test"
+		},
+		{
+			"name": "subSuite",
+			"value": "Org.BBG.store.getNearByDeliveryStore"
+		},
+		{
+			"name": "host",
+			"value": "automation_02"
+		},
+		{
+			"name": "thread",
+			"value": "8744@automation_02.main(1)"
+		},
+		{
+			"name": "severity",
+			"value": "critical"
+		}
+	],
+	"links": [],
+	"name": "Testing the web service whether success 200 has been received",
+	"status": "passed",
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"stage": "finished",
+	"description": "Description : Testing the web service whether success 200 has been received",
+	"start": 1526303428517,
+	"stop": 1526303451413,
+	"parameters": []
+}
