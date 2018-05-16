@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-<!--       <class name="Org.BBG.Org.BBG.Api.App"/> -->
-<!--       <class name="Org.BBG.Org.BBG.Api.AddCart"/> -->
-<!--       <class name="Org.BBG.Org.BBG.Api.AppTest"/> -->
-      <class name="Org.BBG.store.getNearByDeliveryStore"/>
+      <class name="Org.BBG.Profile.getCustomerProfile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
