@@ -5,7 +5,7 @@
     <classes>
       <class name="Org.BBG.store.getNearByDeliveryStore">
         <methods>
-          <include name="GetNearByDelivryStore"/>
+          <include name="GetNearByPickupStore"/>
         </methods>
       </class> <!-- Org.BBG.store.getNearByDeliveryStore -->
     </classes>
