@@ -21,7 +21,6 @@ public class getNearByDeliveryStore extends BaseClass {
 	public void GetNearByPickupStore() throws Exception {
 		connectWithDataBase();
 		dataBaseQuery("select store_latitude,store_longitude from store_master");
-		while (resultSet.next()) {
 			while (resultSet.next()) {
 				latitude = resultSet.getFloat(1);
 				longitude = resultSet.getFloat(2);
@@ -43,4 +42,4 @@ public class getNearByDeliveryStore extends BaseClass {
 			// + latitude + "/" + longitude);
 		}
 	}
-}
+
