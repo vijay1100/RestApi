@@ -2,6 +2,9 @@ package Org.BBG.CheckOut;
 
 import static com.jayway.restassured.RestAssured.given;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -34,6 +37,9 @@ public class getDeliverySlots extends BaseClass {
 			System.out.println(respon);
 			Reporter re = new Reporter();
 			re.log(respon);
+			@SuppressWarnings("rawtypes")
+			List list=new ArrayList<>();
+			System.out.println(list.add(resultSet));
 			result("http://preprodapi.bigbazaar.co.in/api/v1/order/delivery/slots/"+store_Code);
 		}
 	}
